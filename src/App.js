@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Card, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 import Home from './components/pages/Home'
 import Product from './components/pages/Product'
