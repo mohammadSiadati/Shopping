@@ -31,17 +31,17 @@ const Product = ({ history, match }) => {
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
-            <ListGroup.Item>
+            <ListGroup.Item variant="warning">
               <h3>{product.name}</h3>
             </ListGroup.Item>
-            <ListGroup.Item>{product.price}</ListGroup.Item>
-            <ListGroup.Item>{product.description}</ListGroup.Item>
+            <ListGroup.Item variant="danger">{product.price}</ListGroup.Item>
+            <ListGroup.Item variant="success">{product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
             <ListGroup.Item>
-              <Button onClick={addToCartHandler} className="btn-block" type="button">
+              <Button onClick={addToCartHandler} className="btn btn-outline-info" type="button">
                 افزودن به سبد خرید
               </Button>
             </ListGroup.Item>
